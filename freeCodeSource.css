@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    color: rgb(197, 106, 233);
+    color: rgb(226, 160, 252);
     margin: 10px;
     text-align: center;
     font-size: 2rem;
@@ -160,10 +160,9 @@ margin:0 2px;}
     
     code {
         margin:auto;
-        width: 90%;
+        width:auto;
         padding: 15px;
         padding-left: 10px;
         padding-right: 45px;
-        min-width: 220px;
     }
 }
