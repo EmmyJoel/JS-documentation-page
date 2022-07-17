@@ -46,7 +46,7 @@ header {
 
 #main-doc header:hover{padding:2px 4px;
 font-size: 1.5rem;
-}
+cursor:pointer;}
 
 #navbar ul {
     border: 10px solid rgb(12, 8, 32);
@@ -151,7 +151,9 @@ margin:0 2px;}
     #main-doc {
         margin-left: -10px;
     }
-
+    .nav-header {background-color:#18093b;
+    border: 1px outset rgb(12, 8, 32);}
+    
     code {
         margin-left: -20px;
         width: 100%;
