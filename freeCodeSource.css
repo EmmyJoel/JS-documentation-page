@@ -87,6 +87,7 @@ cursor:pointer;}
 #navbar a:hover{background-color:#0a031b;
 font-size: 17px;
 padding:10px 30px;} 
+
 #main-doc {
     position: absolute;
     margin-left: 310px;
@@ -148,18 +149,19 @@ margin:0 2px;}
 }
 
 @media only screen and (max-width: 400px) {
-    #main-doc {
-        margin-left: -10px;
+    #main-doc {padding: 20px 5px 20px 5px;
+        margin:auto;
+        box-sizing:border-box;
     }
     .nav-header {background-color:#18093b;
     border: 1px outset rgb(12, 8, 32);}
     
     code {
-        margin-left: -20px;
-        width: 100%;
+        margin:auto;
+        width: 90%;
         padding: 15px;
         padding-left: 10px;
         padding-right: 45px;
-        min-width: 233px;
+        min-width: 220px;
     }
 }
