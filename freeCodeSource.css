@@ -40,7 +40,7 @@ header {
 #main-doc header {border:1px  outset rgb(29, 37, 107);
     padding-left: 5px;
     text-align: left;
-    margin-top: 4px;
+    margin-top: 7px;
     font-size: 1.4em;
 }
 
@@ -51,7 +51,7 @@ cursor:pointer;}
 #navbar ul {
     border: 10px solid rgb(12, 8, 32);
     border-radius: 10px;
-    height: 55%;
+    height: 60%;
     padding: 0;
     overflow-y: auto;
     overflow-x: hidden;
