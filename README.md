@@ -14,4 +14,4 @@ You're welcome to make the code yours and give it that very awesome look you wis
 
 Here's the link to the live page.
 
-- : [https://emmyjoel.github.io/css-on-freecodecamp-html/]
+- : [https://emmyjoel.github.io/JS-documentation-page/]
