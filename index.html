@@ -1,56 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>cascading styling on html code</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav id="navbar">
-      <header class="nav-header"><span class="js">JS</span> Documentation</header>
-      <ul>
-        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
-        <li>
-          <a class="nav-link" href="#What_is_javascript?"
-            >What you should already know</a>
-        </li>
-        <li>
-          <a class="nav-link" href="#JavaScript_and_Java"
-            >JavaScript and Java</a
-          >
-        </li>
-        <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
-        <li><a class="nav-link" href="#Variables">Variables</a></li>
-        <li>
-          <a class="nav-link" href="#Declaring_variables"
-            >Declaring variables</a
-          >
-        </li>
-        <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
-        <li>
-          <a class="nav-link" href="#Global_variables">Global variables</a>
-        </li>
-        <li><a class="nav-link" href="#Constants">Constants</a></li>
-        <li><a class="nav-link" href="#Data_types">Data types</a></li>
-        <li>
-          <a class="nav-link" href="#if...else_statement"
-            >if...else statement</a
-          >
-        </li>
-        <li><a class="nav-link" href="#while_statement">while statement</a></li>
-        <li>
-          <a class="nav-link" href="#Function_declarations"
-            >Function declarations</a
-          >
-        </li>
-        <li><a class="nav-link" href="#Reference">Reference</a></li>
-      </ul>
-    </nav>
-    <main id="main-doc">
-      <ul>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cascading styling on html code</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav id="navbar">
+    <header class="nav-header"><span class="js">JS</span> Documentation</header>
+    <ul>
+      <li>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#What_is_javascript?">What you should already know</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#Hello_world">Hello world</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#Variables">Variables</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#Variable_scope">Variable scope</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#Global_variables">Global variables</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#Constants">Constants</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#Data_types">Data types</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#if...else_statement">if...else statement</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#while_statement">while statement</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#Function_declarations">Function declarations</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#Reference">Reference</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <ul>
       <section class="main-section" id="Introduction">
-        <li><header>Introduction</header></li>
+        
+        <li>
+          <header>Introduction</header>
+        </li>
+
         <article>
           <p>
             JavaScript is a cross-platform, object-oriented scripting language.
@@ -87,7 +114,9 @@
         </article>
       </section>
       <section class="main-section" id="What_is_javascript?">
-        <li><header>What you should already know</header></li>
+        <li>
+          <header>What you should already know</header>
+        </li>
         <article>
           <p>This guide assumes you have the following basic background:</p>
 
@@ -96,7 +125,9 @@
               A general understanding of the Internet and the World Wide Web
               (WWW).
             </li>
-            <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+            <li>
+              Good working knowledge of HyperText Markup Language (HTML).
+            </li>
             <li>
               Some programming experience. If you are new to programming, try
               one of the tutorials linked on the main page about JavaScript.
@@ -105,7 +136,9 @@
         </article>
       </section>
       <section class="main-section" id="JavaScript_and_Java">
-        <li><header>JavaScript and Java</header></li>
+        <li>
+          <header>JavaScript and Java</header>
+        </li>
         <article>
           <p>
             JavaScript and Java are similar in some ways but fundamentally
@@ -137,12 +170,13 @@
         </article>
       </section>
       <section class="main-section" id="Hello_world">
-        <li><header>Hello world</header></li>
+        <li>
+          <header>Hello world</header>
+        </li>
         <article>
           To get started with writing JavaScript, open the Scratchpad and write
           your first "Hello world" JavaScript code:
-          <code
-            >function greetMe(yourName) { alert("Hello " + yourName); }
+          <code>function greetMe(yourName) { alert("Hello " + yourName); }
             greetMe("World");
           </code>
 
@@ -151,7 +185,9 @@
         </article>
       </section>
       <section class="main-section" id="Variables">
-       <li><header>Variables</header></li>
+        <li>
+          <header>Variables</header>
+        </li>
         <p>
           You use variables as symbolic names for values in your application.
           The names of variables, called identifiers, conform to certain rules.
@@ -171,7 +207,9 @@
         </p>
       </section>
       <section class="main-section" id="Declaring_variables">
-        <li><header>Declaring variables</header></li>
+        <li>
+          <header>Declaring variables</header>
+        </li>
         <article>
           You can declare a variable in three ways:
           <p>
@@ -192,7 +230,8 @@
         </article>
       </section>
       <section class="main-section" id="Variable_scope">
-        <li>header>Variable scope</header></li>
+        <li>header>Variable scope</header>
+        </li>
         <article>
           <p>
             When you declare a variable outside of any function, it is called a
@@ -216,14 +255,14 @@
             ECMAScript 2015.
           </p>
 
-          <code
-            >if (true) { let y = 5; } console.log(y); // ReferenceError: y is
-            not defined</code
-          >
+          <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is
+            not defined</code>
         </article>
       </section>
       <section class="main-section" id="Global_variables">
-        <li><header>Global variables</header></li>
+        <li>
+          <header>Global variables</header>
+        </li>
         <article>
           <p>
             Global variables are in fact properties of the global object. In web
@@ -241,7 +280,9 @@
         </article>
       </section>
       <section class="main-section" id="Constants">
-       <li><header>Constants</header></li>
+        <li>
+          <header>Constants</header>
+        </li>
         <article>
           <p>
             You can create a read-only, named constant with the const keyword.
@@ -267,21 +308,19 @@
             variable in the same scope. For example:
           </p>
 
-          <code
-            >// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
+          <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
             WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
-            //statements }</code
-          >
+            //statements }</code>
           However, object attributes are not protected, so the following
           statement is executed without problems.
-          <code
-            >const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
-            "otherValue";</code
-          >
+          <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
+            "otherValue";</code>
         </article>
       </section>
       <section class="main-section" id="Data_types">
-        <li><header>Data types</header></li>
+        <li>
+          <header>Data types</header>
+        </li>
         <article>
           <p>The latest ECMAScript standard defines seven data types:</p>
           <ul>
@@ -316,7 +355,9 @@
         </article>
       </section>
       <section class="main-section" id="if...else_statement">
-        <li><header>if...else statement</header></li>
+        <li>
+          <header>if...else statement</header>
+        </li>
         <article>
           Use the if statement to execute a statement if a logical condition is
           true. Use the optional else clause to execute a statement if the
@@ -332,8 +373,7 @@
             You may also compound the statements using else if to have multiple
             conditions tested in sequence, as follows:
           </p>
-          <code
-            >if (condition_1) { statement_1; } else if (condition_2) {
+          <code>if (condition_1) { statement_1; } else if (condition_2) {
             statement_2; } else if (condition_n) { statement_n; } else {
             statement_last; }
           </code>
@@ -343,12 +383,10 @@
           general, it's good practice to always use block statements, especially
           when nesting if statements:
 
-          <code
-            >if (condition) { statement_1_runs_if_condition_is_true;
+          <code>if (condition) { statement_1_runs_if_condition_is_true;
             statement_2_runs_if_condition_is_true; } else {
             statement_3_runs_if_condition_is_false;
-            statement_4_runs_if_condition_is_false; }</code
-          >
+            statement_4_runs_if_condition_is_false; }</code>
           It is advisable to not use simple assignments in a conditional
           expression, because the assignment can be confused with equality when
           glancing over the code. For example, do not use the following code:
@@ -360,7 +398,9 @@
         </article>
       </section>
       <section class="main-section" id="while_statement">
-        <li><header>while statement</header></li>
+        <li>
+          <header>while statement</header>
+        </li>
         <article>
           A while statement executes its statements as long as a specified
           condition evaluates to true. A while statement looks as follows:
@@ -405,7 +445,9 @@
         </article>
       </section>
       <section class="main-section" id="Function_declarations">
-        <li><header>Function declarations</header></li>
+        <li>
+          <header>Function declarations</header>
+        </li>
         <article>
           A function definition (also called a function declaration, or function
           statement) consists of the function keyword, followed by:
@@ -443,21 +485,21 @@
         </article>
       </section>
       <section class="main-section" id="Reference">
-        <li><header>Reference</header></li>
+        <li>
+          <header>Reference</header>
+        </li>
         <article>
           <ul>
             <li>
               All the documentation in this page is taken from
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
-                target="_blank"
-                >MDN</a
-              >
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN</a>
             </li>
           </ul>
         </article>
       </section>
-      </ul>
-    </main>
-  </body>
+    </ul>
+  </main>
+  <script src="alert.js" defer></script>
+</body>
+
 </html>
